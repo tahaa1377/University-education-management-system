@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.management.controller.TeacherPageController">
+   <children>
+      <Label layoutX="237.0" layoutY="26.0" prefHeight="17.0" prefWidth="343.0" style="-fx-text-alignment: center;" text="teacher page" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="defineNewCourse" layoutX="69.0" layoutY="92.0" mnemonicParsing="false" onAction="#defineNewCourseActon" prefHeight="31.0" prefWidth="132.0" text="define new course" />
+      <Button fx:id="showMyPresentedCourse" layoutX="257.0" layoutY="92.0" mnemonicParsing="false" onAction="#showMyPresentedCourseAction" prefHeight="31.0" prefWidth="189.0" text="show my presented course" />
+   </children>
+</AnchorPane>

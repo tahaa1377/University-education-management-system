@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.management.controller.TeacherDefineNewCourseController">
+   <children>
+      <Button fx:id="btnBack" layoutX="6.0" layoutY="4.0" mnemonicParsing="false" onAction="#btnBackAction" text="back" />
+      <ChoiceBox fx:id="courseChoiceBox" layoutX="194.0" layoutY="108.0" prefHeight="25.0" prefWidth="203.0" />
+      <Label layoutX="265.0" layoutY="77.0" prefHeight="17.0" prefWidth="52.0" text="course">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="inputCapacity" layoutX="220.0" layoutY="247.0" promptText="capacity" />
+      <ChoiceBox fx:id="section2ChoiceBox" disable="true" layoutX="345.0" layoutY="179.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="section1ChoiceBox" layoutX="124.0" layoutY="180.0" prefWidth="150.0" />
+      <Button fx:id="btnSubmit" layoutX="245.0" layoutY="307.0" mnemonicParsing="false" onAction="#btnSubmitAction" prefHeight="25.0" prefWidth="111.0" text="submit" />
+      <Label layoutX="177.0" layoutY="159.0" text="section 1" />
+      <Label layoutX="395.0" layoutY="160.0" text="section 2" />
+      <Label fx:id="txtError" alignment="CENTER" layoutX="4.0" layoutY="358.0" prefHeight="17.0" prefWidth="597.0" textAlignment="CENTER" />
+   </children>
+</AnchorPane>
